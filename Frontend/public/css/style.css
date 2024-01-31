@@ -1,0 +1,677 @@
+/* Reset some default styling */
+.navbra__logo img {
+    width: 100px; /* Sesuaikan dengan lebar yang diinginkan */
+    height: auto; /* Menyesuaikan tinggi agar tidak terdistorsi */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color for the body */
+body {
+    background-color: #ffffff;
+}
+
+/* Style for the login container */
+.login-container {
+    margin-top: 100px;
+    margin-left: auto;
+}
+
+/* Style for the login form */
+.login-form {
+    background-color: #EDFAFF;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Style for the login form heading */
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004F98; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Font family */
+}
+
+/* Style for form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #000000; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Font family */
+}
+
+/* Style for input fields in form groups */
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the login button */
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004F98;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hover effect for the login button */
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.selamat-text {
+    color: #004F98;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.col-md-6.order-md-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-meet{
+color: #F06823;
+font-family: Poppins, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.lupa-text{
+    color: #F06823;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.login-text {
+    color: #004F98;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navbra__logo img {
+    width: 100px; /* Sesuaikan lebar logo */
+    height: auto; 
+    margin-left: 50px; /* Menggeser ke kanan */
+}
+
+/* style.css */
+
+.styled-box {
+    width: 100%;
+    height: 448px;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, #3A6EA5 36.49%, rgba(58, 110, 165, 0.27) 100%);
+}
+
+.dashbord-text {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+.styled-box-2 {
+    width: 65%; /* Use a percentage for width */
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+    margin-left: 18%; /* Use a percentage for margin */
+    margin-right: 10%; /* Use a percentage for margin */
+}
+
+.form-control-Keterangan{
+    height: 80%;
+    margin-left: 4%;
+}
+
+.styled-box-3 {
+    width: 120.309px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #004E98;
+    color: #004E98;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    align-items: center;
+	grid-gap: 10px;
+    display: flex;
+	justify-content: center;
+}
+.styled-box-4 {
+    width: 180.309px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); /* Warna hitam dengan tingkat kejernihan (opacity) nol */
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styled-box-5 {
+    width: 120.300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-group-2 input {
+    width: auto;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.form-group3 input {
+    padding: 15px;
+    border: 1px solid #b3b5b8;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group3 select {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #b3b5b8;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-group3 label {
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    width: auto;
+}
+
+.form-control-PIC,
+.form-control-Agenda {
+    display: flex;
+    width: 80px;
+    height: 33px;
+    padding: 5px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.styled-box-6 {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #376FA6;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+} 
+
+.table-responsive{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.thead-blue {
+    background-color: #004E98; /* Change this to your desired blue color */
+    color: #ffffff; /* Change this to your desired text color */
+}
+
+.custom-table {
+    margin-top: 10px;
+}
+.dataTables_length{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dataTables_length label {
+    display: inline-flex;
+    padding: 7px 14px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.dataTables_length select {
+    margin-left: 10px; 
+    margin-right: 10px;
+    display: inline-flex;
+    padding: 7px 14px;
+    align-items: center;
+}
+.dataTables_filter{
+    margin-top: 20px;
+}
+
+.button-booking {
+    width: auto;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #FF6700;
+    color: #FF6700;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); 
+    margin: 0 auto;
+    display: block;
+    margin-top: 5%;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.search-container label {
+    margin-right: 10px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination-container ul {
+    display: flex;
+    padding: 5px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.pagination-container li {
+    margin-right: 5px;
+    color: #AAACAB;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.angka {
+    display: flex;
+    width: 42px;
+    padding: 5px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    border-radius: 10px;
+    border: 1px solid #AAACAB;
+    background: #376FA6;
+    color: #FFF;
+}
+
+.angka text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Ruangan{
+    width: 180.309px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #376FA6;
+    color: #376FA6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); /* Warna hitam dengan tingkat kejernihan (opacity) nol */
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ruangan1{
+    width: 180.309px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #376FA6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); /* Warna hitam dengan tingkat kejernihan (opacity) nol */
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Driver{
+    width: 120.300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 2px solid #376FA6;
+    color: #376FA6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Driver1{
+    width: 120.300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #376FA6;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Historya {
+    width: 120.309px;
+    height: 40px;
+    border-radius: 50px;
+    color: #004E98;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    align-items: center;
+	grid-gap: 10px;
+    display: flex;
+	justify-content: center;
+}
+.Historyaa {
+    width: 80.309px;
+    height: 40px;
+    border-radius: 50px;
+    color: #004E98;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    align-items: center;
+	grid-gap: 10px;
+    display: flex;
+	justify-content: center;
+}
+
+.driveryaa {
+    width: 120.300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.meetRoom{
+    width: 180.309px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: rgba(0, 0, 0, 0); /* Warna hitam dengan tingkat kejernihan (opacity) nol */
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text{
+    color: #090973;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bttn{
+    border-radius: 20px;
+    border: 1px solid #000;
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    width: 120px;
+    margin-left: 120%;
+}
+
+.txt{
+    margin-right: 10px;
+}
+
+.profile-content {
+    margin-left: 70%;
+}
+
+
+.form-control-PIC {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .form-control-PIC {
+        width: 100%;
+    }
+}
+
+
+
+.profile-content {
+    display: flex;
+    margin-left: 70px;
+    width: 60%;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.poto {
+    margin-top: 10%;
+    width:100px; /* Sesuaikan dengan ukuran gambar yang diinginkan */
+    height: 100px; /* Sesuaikan dengan ukuran gambar yang diinginkan */
+    object-fit: cover; /* Biar gambar tidak terdistorsi */
+    border-radius: 50%; /* Untuk membuat gambar menjadi lingkaran */
+    margin-left: 120%;
+}
+
+.form-group3 {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Menambahkan margin bottom antara setiap input */
+    width: 100%;
+}
+
+.form-group3 label {
+    margin-right: 5px;
+    width: 30%;
+    white-space: nowrap; /* Menghindari wrap label */
+}
+
+.form-group3 .txt {
+    width: 30%;
+    margin-right: 5px;
+    white-space: nowrap; /* Menghindari wrap text */
+}
+
+.form-group3 .form-cek {
+    width: 500px;
+    height: 20%;
+}
+
+.bttn-simpan{
+    border-radius: 20px;
+    border: 1px solid #376FA6;
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    width: 25%;
+    margin-left: 125%;
+    
+}
+
+.ckck {
+    width: 120.309px;
+    height: 40px;
+    border-radius: 50px;
+    color: #858686;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    align-items: center;
+	grid-gap: 10px;
+    display: flex;
+	justify-content: center;
+    margin-top: 20%;
+    margin-left: 120%;
+    text-decoration: underline;
+}
+
