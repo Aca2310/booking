@@ -1,0 +1,33 @@
+###
+GET http://localhost:8000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjIxMTE1MjMwMjQiLCJuYW1lIjoiYWNhIiwiZW1haWwiOiJoYWxvYWFAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzA2NTE0OTY2LCJleHAiOjE3MDY1MTQ5ODF9.L3DFBVJhvUXiZUH8Hk8g1r1r5He24r_eY5bLv9mNN_4
+###
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "username" : "2111523024",
+    "name" : "aca",
+    "email"     : "haloaa@gmail.com",
+    "password" : "123456",
+    "confPassword" : "123456",
+    "role" :"admin"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{       
+    "username" : "2111523024",
+    "password" : "123456"
+}
+
+###
+POST http://localhost:8000/bookingruangan
+Content-Type: application/json
+
+{       
+    "PIC"     : "ha",
+    "section" : "123456"
+}
