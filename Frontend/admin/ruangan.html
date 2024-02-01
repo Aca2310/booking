@@ -31,60 +31,52 @@
 				<li >
 					<a class="nav-link" id="dashboard-tab" data-toggle="pill" href="dashboard_admin.html" role="tab"
 						aria-controls="dashboard" aria-selected="false" style="margin-top: 5%; ">
-						<i class='bx bxs-home'></i>
+						<i class="fa-solid fa-chart-column" style="color: #ffffff;"></i>
 						<span class="text">Dashboard</span>
 					</a>
 				</li>
 				<li >
 					<a class="nav-link" id="BookingRequest-tab" data-toggle="pill" href="BookingRequest.html" role="tab"
 						aria-controls="BookingRequests" aria-selected="false">
-						<i class='bx bxs-file'></i>
+						<i class="fa-solid fa-bell" style="color: #ffffff;"></i>
 						<span class="text">Booking Request</span>
 					</a>
 				</li>
                 <li >
 					<a class="nav-link" id="User-tab" data-toggle="pill" href="User.html" role="tab"
 						aria-controls="User" aria-selected="false">
-						<i class='bx bxs-file'></i>
+						<i class="fa-solid fa-user" style="color: #ffffff;"></i>
 						<span class="text">User</span>
 					</a>
 				</li>
                 <li>
-					<a class="nav-link" id="Ruangan-tab" data-toggle="pill" href="Ruangan.html" role="tab"
-						aria-controls="Ruangan" aria-selected="false">
-						<i class='bx bxs-file'></i>
-						<span class="text">Ruangan</span>
+					<a class="nav-link" id="Driver-tab" data-toggle="pill" href="Driver.html" role="tab"
+						aria-controls="Driver" aria-selected="false">
+						<i class="fa-solid fa-car" style="color: #ffffff;"></i>
+						<span class="text">Driver</span>
 					</a>
 				</li>
                 <li class="active">
 					<a class="nav-link" id="ruangan-tab" data-toggle="pill" href="ruangan.html" role="tab"
 						aria-controls="ruangan" aria-selected="false">
-						<i class='bx bxs-file'></i>
+						<i class="fa-solid fa-door-open" style="color: #ffffff;"></i>
 						<span class="text">Ruangan</span>
 					</a>
 				</li>
                 <li>
 					<a class="nav-link" id="History" data-toggle="pill" href="History.html" role="tab"
 						aria-controls="History" aria-selected="false">
-						<i class='bx bxs-file'></i>
+						<i class="fa-solid fa-book-open" style="color: #ffffff;"></i>
 						<span class="text">Laporan</span>
 					</a>
 				</li>
-                <li>
-					<a class="nav-link" id="settings" data-toggle="pill" href="settings.html" role="tab"
-						aria-controls="settings" aria-selected="false">
-						<i class='bx bxs-file'></i>
-						<span class="text">Settings</span>
-					</a>
-				</li>
-
 			</ul>
-            <ul class="side-menu" style="margin-top: 95%; background: #F06823; height: 50px;">
+            <ul class="side-menu">
                 <li>
                     <li>
                         <a class="nav-link" id="logout-tab" data-toggle="pill" href="javascript:void(0)" role="tab"
                             aria-controls="logout" aria-selected="false" onclick="logout()">
-                            <i class='bx bxs-log-out-circle'></i>
+                            <i class="fa-solid fa-right-from-bracket" style="color: #ffffff;"></i>
                             <span class="text">Logout</span>
                         </a>
                     </li>
@@ -115,21 +107,27 @@
                         <table role="table" aria-busy="false" aria-colcount="6" class="table b-table table-striped table-hover table-borderless border b-table-fixed b-table-stacked-sm custom-table" id="__BVID__56">
                             <thead class="thead-blue">
                                 <tr>
-                                    <th>No.</th>
-                                    <th>Nama Ruangan</th>
-                                    <th>Kapasitas</th>
-                                    <th>Fasilitas</th>
-                                    <th>Aksi</th>
+                                    <th style="text-align: center;">No.</th>
+                                    <th  style="text-align: center;" >Nama Ruangan</th>
+                                    <th  style="text-align: center;">Kapasitas</th>
+                                    <th  style="text-align: center;">Fasilitas</th>
+                                    <th  style="text-align: center;">Aksi</th>
         
         
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
-                                    <td class="small-text">15 Januari 2024</td>
-                                    <td class="small-text">Meeting Room 2</td>
-                                    <td class="small-text">09.00</td>
+                                    <td style="text-align: center;" >1</td>
+                                    <td class="small-text" style="text-align: center;">15 Januari 2024</td>
+                                    <td class="small-text" style="text-align: center;">Meeting Room 2</td>
+                                    <td class="small-text" style="text-align: center;">09.00</td>
+                                    <td class="small-text">
+                                        <div class="icon-container" style="margin-left: 35%;">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                            <i class="fa-solid fa-trash"></i>
+                                        </div>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>

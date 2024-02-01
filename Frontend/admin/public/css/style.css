@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
-/* Reset some default styling */
-.navbra__logo img {
-    width: 100px; /* Sesuaikan dengan lebar yang diinginkan */
-    height: 20px; /* Menyesuaikan tinggi agar tidak terdistorsi */
-}
+
 
 body, html {
     margin: 0;
@@ -16,7 +12,7 @@ body {
 }
 
 .navbra__logo img {
-    width: 100px; /* Sesuaikan lebar logo */
+    width: 80px; /* Sesuaikan lebar logo */
     height: auto; 
     margin-left: 50px; /* Menggeser ke kanan */
 }
@@ -29,7 +25,7 @@ li {
 }
 
 #sidebar {
-	position: fixed;
+    position: fixed;
     width: 230px;
     height: 100%;
     background: #004E98;
@@ -39,41 +35,120 @@ li {
     font-family: var(--lato);
     font-size: 14px;
 }
+
+#sidebar .side-menu {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar .side-menu li {
+    width: 100%;
+}
+
 #sidebar .side-menu li.active {
-	background: #389CDB;
-	position: relative;
+    background: #389CDB;
+    position: relative;
+    box-sizing: border-box;
 }
-#sidebar .side-menu li.active::before {
-	content: '';
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	top: -40px;
-	right: 0;
-	box-shadow: 20px 20px 0 var(--grey);
-	z-index: -1;
-}
+
+#sidebar .side-menu li.active::before,
 #sidebar .side-menu li.active::after {
-	content: '';
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	bottom: -40px;
-	right: 0;
-	box-shadow: 20px -20px 0 var(--grey);
-	z-index: -1;
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 0;
+}
+
+#sidebar .side-menu li.active::before {
+    top: -40px;
+    box-shadow: 20px 20px 0 var(--grey);
+}
+
+#sidebar .side-menu li.active::after {
+    bottom: -40px;
+    box-shadow: 20px -20px 0 var(--grey);
 }
 
 .side-menu a {
-    color: #FFFFFF; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none; /* Sesuaikan sesuai kebutuhan */
 }
+
+.side-menu a i {
+    margin-right: 10px;
+}
+
+.side-menu i{
+    margin-left: 20px;
+}
+
+
+.side-menu a i.fa {
+    margin-left: auto;
+}
+
 .main-content {
-    padding-left: 220px; /* Adjust the value based on your sidebar width */
+    padding-left: 230px; /* Sesuaikan nilai berdasarkan lebar sidebar Anda */
 }
 
+#logout-tab {
+    margin-top: 100%;
+    background: #F06823;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
 
+#logout-tab i {
+    margin-right: 10px;
+}
+
+#logout-tab .text {
+    color: #FFFFFF;
+}
+
+tbody td .fa-trash {
+    background-color: #FF3939;
+    border-radius: 30px;
+    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-left: 5px;
+}
+
+tbody td .icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+tbody td .fa-eye{
+    background-color: #AAACAB;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+tbody td .fa-pen-to-square{
+    background-color: #AAACAB;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
 
 .box-info {
     display: grid;
@@ -93,7 +168,7 @@ li {
 }
 
 .box-info i {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -117,23 +192,20 @@ li {
 
 .box-info li:nth-child(1) .bx {
 	background: #ffe4cb;
-	color: #ff932e;
+	color: #4E4E4E;;
 }
 
 .box-info li:nth-child(2) .bx {
 	background: var(--light-orange);
 	background: #ffe4cb;
-	color: #ff932e;
+	color: #4E4E4E;;
 }
 .box-info li:nth-child(3) .bx {
 	background: var(--light-orange);
 	background: #ffe4cb;
-	color: #ff932e;
+	color: #4E4E4E;;
 }
-.box-info li:nth-child(4) .bx {
-	background: #92bebc;
-	color: #184240;
-}
+
 .box-info li .text h3 {
 	font-size: 40px;
 	font-weight: 600;
@@ -297,3 +369,37 @@ li {
     font-size: 14px;
     color: #ffff; /* Sesuaikan dengan warna ikon */
 }
+.detail{
+    width: auto; 
+    height: 30px; 
+    flex-shrink: 0; 
+    border-radius: 30px;
+    background: #389CDB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+                                          
+}
+.setuju{
+    width: 100px; 
+    height: 30px; 
+    flex-shrink: 0; 
+    border-radius: 30px;
+    background: #38DB66;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;                                     
+}
+
+.tolak{
+    width: 100px; 
+    height: 30px; 
+    flex-shrink: 0; 
+    border-radius: 30px;
+    background: #FF3939;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;                                     
+}
+
+.small-text{
+    text-align: center;
+}
+
