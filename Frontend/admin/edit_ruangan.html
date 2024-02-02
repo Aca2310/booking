@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USER</title>
+    <title>Edit Data Ruangan</title>
     
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -85,66 +85,39 @@
     </section>
 
     <main class="main-content">
-        <h2 style="margin-left: 35px;">List Ruangan</h2>
+        <div style="margin-left: 35px;">
+            <h2>Edit Data Ruangan</h2>
+            <div class="card-body">
+                <div class="form-group row">
+                    <div class="col-sm-6 mb-3">
+                        <label for="Nama-ruangan" style="color: #281362; font-weight: 600;">Nama Ruangan <sup class="text-danger">*</sup></label>
+                        <input type="text" class="form-control" id="Nama-ruangan" name="Nama-ruangan" style="width: 80%; border-radius: 10px;">
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <label for="Kapasitas" style="color: #281362; font-weight: 600;">Kapasitas <sup class="text-danger">*</sup></label>
+                        <input type="text" class="form-control" id="Kapasitas" name="Kapasitas" style="width: 80%; border-radius: 10px;">
+                    </div>
+                    <div class="col-sm-12 mb-3">
+                        <label for="Keterangan" style="color: #281362; font-weight: 600;">Keterangan <sup class="text-danger">*</sup></label>
+                        <textarea class="form-control" id="Keterangan" name="Keterangan" rows="3" style="width: 90%; border-radius: 10px;"></textarea>
+                    </div>
+                </div>
 
-        <div class="haloa" style="display: flex; justify-content: space-between; align-items: center;">
-            <div style="display: flex; align-items: center;">
-                
-                <div class="search-container" style="margin-left: 10px;">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="search" placeholder="Ketik kata kunci..." style="height: 10%; font-size: small;">
+                <div class="form-group row justify-content-between text-right">
+                    <div class="col-sm-6">
+                        <!-- <button class="btn btn-outline-primary" style="color: #281362; box-shadow: 2px 2px 5px #888888; border-radius: 20px;">Batal</button> -->
+                    </div>
+                    <div class="col-sm-6">
+                        <button class="btn btn-secondary" style="color: #ffffff;width: 100px; margin-right: 2%; border-radius: 20px;">Batal</button>
+                        <button class="btn btn-success" style="color: #ffffff; margin-right: 20%; border-radius: 20px">Simpan Perubahan</button>
+                    </div>
+                  
                 </div>
             </div>
-            <div class="border-right" style="margin-right: 10%;">
-                <a href="tambah_ruangan.html" class="btn-tambah-akun">
-                    <i class="fas fa-plus"></i> Add Ruangan
-                </a>
-            </div>
-        </div>
-        
-            <form class="styled-box-6">
-                    <div class="table-responsive">
-                        <table role="table" aria-busy="false" aria-colcount="6" class="table b-table table-striped table-hover table-borderless border b-table-fixed b-table-stacked-sm custom-table" id="__BVID__56">
-                            <thead class="thead-blue">
-                                <tr>
-                                    <th style="text-align: center;">No.</th>
-                                    <th  style="text-align: center;" >Nama Ruangan</th>
-                                    <th  style="text-align: center;">Kapasitas</th>
-                                    <th  style="text-align: center;">Fasilitas</th>
-                                    <th  style="text-align: center;">Aksi</th>
-        
-        
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td style="text-align: center;" >1</td>
-                                    <td class="small-text" style="text-align: center;">15 Januari 2024</td>
-                                    <td class="small-text" style="text-align: center;">Meeting Room 2</td>
-                                    <td class="small-text" style="text-align: center;">09.00</td>
-                                    <td class="small-text">
-                                        <div class="icon-container" style="margin-left: 35%;">
-                                            <i class="fa-solid fa-pen-to-square" onclick="window.location.href='edit_ruangan.html'" ></i>
-                                            <i class="fa-solid fa-trash"></i>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="pagination-container">
-                        <div class="" id="">
-                            <ul class="pagination">
-                                <li class="sebelumnya" id=""><a href="#" aria-controls="" data-dt-idx="0" tabindex="0">Sebelumnya</a></li>
-                                <li class="angka"><a href="#" aria-controls="" data-dt-idx="1" tabindex="0" style="color: #fff;">1</a></li>
-                                <li class="selanjutnya" id=""><a href="#" aria-controls="" data-dt-idx="8" tabindex="0">Selanjutnya</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
     </main>
+    
+    
     
 </body>
 </html>

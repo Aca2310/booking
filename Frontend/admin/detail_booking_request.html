@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Driver</title>
+    <title>Detail Booking Request</title>
     
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -35,14 +35,14 @@
 						<span class="text">Dashboard</span>
 					</a>
 				</li>
-				<li >
+				<li class="active">
 					<a class="nav-link" id="BookingRequest-tab" data-toggle="pill" href="BookingRequest.html" role="tab"
 						aria-controls="BookingRequests" aria-selected="false">
 						<i class="fa-solid fa-bell" style="color: #ffffff;"></i>
 						<span class="text">Booking Request</span>
 					</a>
 				</li>
-                <li class="active">
+                <li >
 					<a class="nav-link" id="User-tab" data-toggle="pill" href="User.html" role="tab"
 						aria-controls="User" aria-selected="false">
 						<i class="fa-solid fa-user" style="color: #ffffff;"></i>
@@ -86,39 +86,43 @@
 
     <main class="main-content">
         <div style="margin-left: 35px;">
-            <h2>Tambah Pengguna Baru</h2>
+            <h2>Detail Booking Request</h2>
             <form class="styled-box-6">
             <div class="card-body">
                 <div class="form-group row" >
                     <div class="col-sm-6 mb-3">
-                        <label for="username" style="color: #281362; font-weight: 600;">Username<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="username" name="username" style="width: 80%; border-radius: 10px;">
+                        <label for="PIC" style="color: #281362; font-weight: 600;">PIC</label>
+                        <input type="text" class="form-control" id="pic" name="pic" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="email" style="color: #281362; font-weight: 600;">E-mail<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="email" name="email" style="width: 80%; border-radius: 10px;">
+                        <label for="Section" style="color: #281362; font-weight: 600;">Section</label>
+                        <input type="text" class="form-control" id="section" name="section" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="nama" style="color: #281362; font-weight: 600;">Nama<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="nama" name="nama" style="width: 80%; border-radius: 10px;">
+                        <label for="Agenda" style="color: #281362; font-weight: 600;">Agenda</label>
+                        <input type="text" class="form-control" id="agenda" name="agenda" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="telp" style="color: #281362; font-weight: 600;">Telp<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="telp" name="telp" style="width: 80%; border-radius: 10px;">
+                        <label for="Tanggal" style="color: #281362; font-weight: 600;">Tanggal</label>
+                        <input type="text" class="form-control" id="tanggal" name="tanggal" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="password" style="color: #281362; font-weight: 600;">Password<sup class="text-danger">*</sup></label>
-                        <input type="password" class="form-control" id="password" name="password" style="width: 80%; border-radius: 10px;">
+                        <label for="JamMulai" style="color: #281362; font-weight: 600;">Jam Mulai</label>
+                        <input type="text" class="form-control" id="JamMulai" name="JamMulai" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="konfirmpassword" style="color: #281362; font-weight: 600;">konfirm Password<sup class="text-danger">*</sup></label>
-                        <input type="password" class="form-control" id="password" name="password" style="width: 80%; border-radius: 10px;">
+                        <label for="JamSelesai" style="color: #281362; font-weight: 600;">Jam Selesai</label>
+                        <input type="text" class="form-control" id="jamSelesai" name="jamSelesai" style="width: 80%; border-radius: 10px;" value="aaa">
                     </div>
                     <div class="col-sm-6 mb-3">
-                        <label for="role" style="color: #281362; font-weight: 600;">Role<sup class="text-danger">*</sup></label>
-                        <select class="form-control" id="role" name="role" style="width: 80%; border-radius: 10px;">
-                            <option value="admin">Admin</option>
-                            <option value="karyawan">User</option>
+                        <label for="Keterangan" style="color: #281362; font-weight: 600;">Keterangan</label>
+                        <input type="text" class="form-control" id="keterangan" name="keterangan" style="width: 80%; border-radius: 10px; height: 100px;" value="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+                    </div>
+                    <div class="col-sm-6 mb-3">
+                        <label for="meetRoom" style="color: #281362; font-weight: 600;">Meeting Room</label>
+                        <select class="form-control" id="meetRoom" name="meetRoom" style="width: 80%; border-radius: 10px;">
+                            <option >Meeting Room 1</option>
+                            <option >Meeting Room 2</option>
                         </select>
                     </div>
                 </div>
@@ -127,7 +131,8 @@
                         <!-- <button class="btn btn-outline-primary" style="color: #281362; box-shadow: 2px 2px 5px #888888; border-radius: 20px;">Batal</button> -->
                     </div>
                     <div class="col-sm-6">
-                        <button class="btn btn-success" style="color: #ffffff;width: 100px; margin-right: 20%; border-radius: 20px;">Simpan</button>
+                        <button class="btn btn-danger" style="color: #ffffff;width: 100px; margin-right: 2%; border-radius: 20px;">Tolak</button>
+                        <button class="btn btn-success" style="color: #ffffff;width: 100px; margin-right: 20%; border-radius: 20px;">Setujui</button>
                     </div>
                   
                 </div>
